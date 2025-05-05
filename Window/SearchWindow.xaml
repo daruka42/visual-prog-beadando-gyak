@@ -1,0 +1,16 @@
+﻿<Window x:Class="VisualProgBeadandoGyak.SearchWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:utils="clr-namespace:VisualProgBeadandoGyak.Utilities"
+        Title="Search" Height="200" Width="300">
+    <StackPanel Margin="10">
+        <TextBox x:Name="SearchTextBox" utils:WatermarkHelper.Watermark="Search term..." />
+        <ComboBox x:Name="SearchFieldComboBox" Margin="0 10" SelectedIndex="0">
+            <ComboBoxItem Content="Title"/>
+            <ComboBoxItem Content="Author"/>
+            <ComboBoxItem Content="Genre"/>
+            <ComboBoxItem Content="Year"/>
+        </ComboBox>
+        <Button Content="Search" Click="Search_Click" Margin="0 10"/>
+    </StackPanel>
+</Window>

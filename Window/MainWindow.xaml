@@ -1,0 +1,87 @@
+﻿<Window x:Class="VisualProgBeadandoGyak.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:VisualProgBeadandoGyak"
+        mc:Ignorable="d"
+        Title="Book Management System"
+        Height="600"
+        Width="900"
+        WindowStartupLocation="CenterScreen">
+
+    <Window.Resources>
+        <Style TargetType="Button">
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="Padding" Value="10 5"/>
+            <Setter Property="MinWidth" Value="80"/>
+            <Setter Property="FontWeight" Value="SemiBold"/>
+            <Setter Property="Cursor" Value="Hand"/>
+        </Style>
+
+        <Style TargetType="TextBox">
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="Padding" Value="5"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+        </Style>
+
+        <Style TargetType="TextBox" x:Key="WatermarkedTextBox" BasedOn="{StaticResource {x:Type TextBox}}">
+            <Setter Property="Foreground" Value="Gray"/>
+        </Style>
+    </Window.Resources>
+
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <Border Grid.Row="0" BorderBrush="LightGray" BorderThickness="0 0 0 1" Padding="0 0 0 5" Margin="0 0 0 10">
+            <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+                <ComboBox x:Name="SearchFieldComboBox" Width="150" Margin="5" SelectedIndex="0">
+                    <ComboBoxItem>Title</ComboBoxItem>
+                    <ComboBoxItem>Author</ComboBoxItem>
+                    <ComboBoxItem>Genre</ComboBoxItem>
+                    <ComboBoxItem>Year</ComboBoxItem>
+                </ComboBox>
+                <TextBox x:Name="SearchTextBox" Width="200" local:WatermarkHelper.Watermark="Enter search term..."/>
+                <Button Content="Search" Click="SearchButton_Click" Background="#FF2196F3" Foreground="White"/>
+                <Button Content="Clear" Click="ClearSearchButton_Click"/>
+            </StackPanel>
+        </Border>
+
+        <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center" Margin="0 0 0 10">
+            <Button Content="Add Book" Click="AddBookButton_Click" Background="#FF4CAF50" Foreground="White"/>
+            <Button Content="Add Author" Click="AddAuthorButton_Click" Background="#FF2196F3" Foreground="White"/>
+            <Button Content="Edit" Click="EditButton_Click" 
+                    IsEnabled="{Binding ElementName=MainDataGrid, Path=SelectedItems.Count}"/>
+            <Button Content="Delete" Click="DeleteButton_Click" Background="#FFF44336" Foreground="White"
+                    IsEnabled="{Binding ElementName=MainDataGrid, Path=SelectedItems.Count}"/>
+            <Button Content="Refresh" Click="RefreshButton_Click"/>
+            <Button Content="Export CSV" Click="ExportButton_Click" Background="#FF607D8B" Foreground="White"/>
+        </StackPanel>
+
+        <DataGrid x:Name="MainDataGrid" Grid.Row="2" Margin="0 10" AutoGenerateColumns="False"
+                  SelectionMode="Single" IsReadOnly="True" SelectionChanged="MainDataGrid_SelectionChanged"
+                  GridLinesVisibility="Horizontal" HeadersVisibility="Column" CanUserAddRows="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="ID" Binding="{Binding BookId}" Width="Auto" IsReadOnly="True"/>
+                <DataGridTextColumn Header="Title" Binding="{Binding Title}" Width="*"/>
+                <DataGridTextColumn Header="Author" Binding="{Binding Author.Name}" Width="150"/>
+                <DataGridTextColumn Header="Genre" Binding="{Binding Genre}" Width="100"/>
+                <DataGridTextColumn Header="Year" Binding="{Binding PublicationYear}" Width="80"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <StatusBar Grid.Row="3" Background="{StaticResource {x:Static SystemColors.ControlBrush}}">
+            <StatusBarItem>
+                <TextBlock x:Name="StatusText" Text="Ready"/>
+            </StatusBarItem>
+            <StatusBarItem HorizontalAlignment="Right">
+                <TextBlock Text="{Binding ElementName=MainDataGrid, Path=Items.Count, StringFormat={}{0} records}"/>
+            </StatusBarItem>
+        </StatusBar>
+    </Grid>
+</Window>

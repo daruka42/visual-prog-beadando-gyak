@@ -1,0 +1,86 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\sikdo\\source\\repos\\VisualProgBeadandoGyak\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{44E77044-AD56-4E06-8501-3BEBCA4FAFE2}|VisualProgBeadandoGyak.csproj|c:\\users\\sikdo\\source\\repos\\visualprogbeadandogyak\\window\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{44E77044-AD56-4E06-8501-3BEBCA4FAFE2}|VisualProgBeadandoGyak.csproj|solutionrelative:window\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44E77044-AD56-4E06-8501-3BEBCA4FAFE2}|VisualProgBeadandoGyak.csproj|c:\\users\\sikdo\\source\\repos\\visualprogbeadandogyak\\window\\mainwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{44E77044-AD56-4E06-8501-3BEBCA4FAFE2}|VisualProgBeadandoGyak.csproj|solutionrelative:window\\mainwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44E77044-AD56-4E06-8501-3BEBCA4FAFE2}|VisualProgBeadandoGyak.csproj|c:\\users\\sikdo\\source\\repos\\visualprogbeadandogyak\\utilities\\watermarkhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44E77044-AD56-4E06-8501-3BEBCA4FAFE2}|VisualProgBeadandoGyak.csproj|solutionrelative:utilities\\watermarkhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44E77044-AD56-4E06-8501-3BEBCA4FAFE2}|VisualProgBeadandoGyak.csproj|c:\\users\\sikdo\\source\\repos\\visualprogbeadandogyak\\window\\bookswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{44E77044-AD56-4E06-8501-3BEBCA4FAFE2}|VisualProgBeadandoGyak.csproj|solutionrelative:window\\bookswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\sikdo\\source\\repos\\VisualProgBeadandoGyak\\Window\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Window\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\sikdo\\source\\repos\\VisualProgBeadandoGyak\\Window\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Window\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T19:51:22.995Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WatermarkHelper.cs",
+              "DocumentMoniker": "C:\\Users\\sikdo\\source\\repos\\VisualProgBeadandoGyak\\Utilities\\WatermarkHelper.cs",
+              "RelativeDocumentMoniker": "Utilities\\WatermarkHelper.cs",
+              "ToolTip": "C:\\Users\\sikdo\\source\\repos\\VisualProgBeadandoGyak\\Utilities\\WatermarkHelper.cs",
+              "RelativeToolTip": "Utilities\\WatermarkHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T19:49:58.979Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BooksWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\sikdo\\source\\repos\\VisualProgBeadandoGyak\\Window\\BooksWindow.xaml",
+              "RelativeDocumentMoniker": "Window\\BooksWindow.xaml",
+              "ToolTip": "C:\\Users\\sikdo\\source\\repos\\VisualProgBeadandoGyak\\Window\\BooksWindow.xaml",
+              "RelativeToolTip": "Window\\BooksWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-05T19:48:55.536Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\sikdo\\source\\repos\\VisualProgBeadandoGyak\\Window\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Window\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\sikdo\\source\\repos\\VisualProgBeadandoGyak\\Window\\MainWindow.xaml",
+              "RelativeToolTip": "Window\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-05T19:48:40.23Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
