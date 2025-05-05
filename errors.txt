@@ -1,0 +1,24 @@
+'BooksWindow' does not contain a definition for 'TitleInput_GotFocus' and no accessible extension method 'TitleInput_GotFocus' accepting a first argument of type 'BooksWindow' could be found (are you missing a using directive or an assembly reference?)
+The name "WatermarkHelper" does not exist in the namespace "clr-namespace:VisualProgBeadandoGyak.Utilities".
+Operation is not valid due to the current state of the object.
+The name "WatermarkHelper" does not exist in the namespace "clr-namespace:VisualProgBeadandoGyak".
+Operation is not valid due to the current state of the object.
+'BooksWindow' does not contain a definition for 'TitleInput_LostFocus' and no accessible extension method 'TitleInput_LostFocus' accepting a first argument of type 'BooksWindow' could be found (are you missing a using directive or an assembly reference?)
+The name "WatermarkHelper" does not exist in the namespace "clr-namespace:VisualProgBeadandoGyak".
+Operation is not valid due to the current state of the object.
+'MainWindow' does not contain a definition for 'SearchButton_Click' and no accessible extension method 'SearchButton_Click' accepting a first argument of type 'MainWindow' could be found (are you missing a using directive or an assembly reference?)
+'MainWindow' does not contain a definition for 'ClearSearchButton_Click' and no accessible extension method 'ClearSearchButton_Click' accepting a first argument of type 'MainWindow' could be found (are you missing a using directive or an assembly reference?)
+'MainWindow' does not contain a definition for 'AddBookButton_Click' and no accessible extension method 'AddBookButton_Click' accepting a first argument of type 'MainWindow' could be found (are you missing a using directive or an assembly reference?)
+'MainWindow' does not contain a definition for 'AddAuthorButton_Click' and no accessible extension method 'AddAuthorButton_Click' accepting a first argument of type 'MainWindow' could be found (are you missing a using directive or an assembly reference?)
+'MainWindow' does not contain a definition for 'EditButton_Click' and no accessible extension method 'EditButton_Click' accepting a first argument of type 'MainWindow' could be found (are you missing a using directive or an assembly reference?)
+'MainWindow' does not contain a definition for 'DeleteButton_Click' and no accessible extension method 'DeleteButton_Click' accepting a first argument of type 'MainWindow' could be found (are you missing a using directive or an assembly reference?)
+'MainWindow' does not contain a definition for 'RefreshButton_Click' and no accessible extension method 'RefreshButton_Click' accepting a first argument of type 'MainWindow' could be found (are you missing a using directive or an assembly reference?)
+'MainWindow' does not contain a definition for 'ExportButton_Click' and no accessible extension method 'ExportButton_Click' accepting a first argument of type 'MainWindow' could be found (are you missing a using directive or an assembly reference?)
+'MainWindow' does not contain a definition for 'MainDataGrid_SelectionChanged' and no accessible extension method 'MainDataGrid_SelectionChanged' accepting a first argument of type 'MainWindow' could be found (are you missing a using directive or an assembly reference?)
+'#FFF0F0F0' resource not found.
+The name "WatermarkHelper" does not exist in the namespace "clr-namespace:VisualProgBeadandoGyak.Utilities".
+Operation is not valid due to the current state of the object.
+'SearchWindow' does not contain a definition for 'Search_Click' and no accessible extension method 'Search_Click' accepting a first argument of type 'SearchWindow' could be found (are you missing a using directive or an assembly reference?)
+The name 'InitializeComponent' does not exist in the current context
+Cannot convert null literal to non-nullable reference type.
+Cannot convert null literal to non-nullable reference type.
